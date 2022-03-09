@@ -1,1 +1,18 @@
-
+<bugreport>
+<name>Inaccessible field for entering an email for the leave feedback form</name>
+<info> 
+<environment>Win8FireFox5902</environment>
+<version>21</version>
+<priority>medium</priority>
+<author>Ivan</author>
+</info>
+<reproductionSteps> 
+<step1>go to the page about the company</step1>
+<step2>open the leave feedback form</step2>
+<step3>move the cursor to the email field</step3>
+</reproductionSteps>
+<results>
+<actualResult>the email field is not available for character input. Cursor does not appear</actualResult>
+<expectedRresult>the email field is available for entering characters. The cursor appears</expectedRresult>
+</results>
+</bugreport>
